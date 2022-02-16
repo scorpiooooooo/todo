@@ -29,7 +29,6 @@ export default {
     },
   },
 }
-// git remote add origin git@github.com:scorpiooooooo/todo.git
 </script>
 
 <style lang="scss">
