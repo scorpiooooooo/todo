@@ -24,7 +24,7 @@ export default {
     addList() {
      console.log(this.list)
       this.$store.dispatch('home/addItem', { id: 0, thing: '睡觉' })
-      this.$store.dispatch('home/addItem', '名字')
+      // this.$store.dispatch('home/addItem', '名字')
       console.log(this.$store.state.home.list)
     },
   },

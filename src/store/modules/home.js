@@ -14,13 +14,14 @@ const actions = {
   // addItem({commit}, {value}) {
   //   commit('add', value)
   // }
-  addItem(context, {value}) {
+  addItem(context, value) {
+    console.log(value);
     context.commit('add', value)
   }
 }
 
 export default {
-  namespace: true,
+  namespaced: true,
   state,
   mutations,
   actions
